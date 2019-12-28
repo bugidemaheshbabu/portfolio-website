@@ -8,4 +8,12 @@ git status
 
 git commit -m "file.md"
 
-git add
+git add file.md
+
+git add --all
+
+git add -li
+
+git commiit -m "mesage"
+
+git push origin master
