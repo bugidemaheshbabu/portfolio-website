@@ -17,3 +17,5 @@ git add -li
 git commiit -m "mesage"
 
 git push origin master
+
+git config --global user.name "Maheshababubugide"
