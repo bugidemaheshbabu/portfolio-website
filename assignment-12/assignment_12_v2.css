@@ -1,0 +1,108 @@
+.container {
+    margin: 10px auto;
+}
+
+.top {
+
+    color: grey;
+    text-align: left;
+}
+
+.left {
+
+    color: grey;
+    text-align: right;
+}
+
+.second {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.second_text {
+    padding-top: 125px;
+
+}
+
+.third_text {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.fourth_back {
+    background-color: #f3f3f3;
+    border: 10px solid white;
+
+}
+
+.fourth_text {
+    padding: 20px;
+}
+
+.fourth_pad {
+    padding: 5% 0;
+}
+
+.sixth_left {
+    background-color: #f3f3f3;
+}
+
+.last_desktop {
+    background-color: #f3f3f3;
+}
+
+.last_desktop a {
+    padding: 4%;
+    color: grey;
+}
+
+.last_tablet a {
+    padding: 2%;
+    color: grey;
+}
+
+.last_tablet {
+    background-color: #f3f3f3;
+}
+
+.last_mobile {
+    background-color: #f3f3f3;
+}
+
+.last_mobile a {
+    color: grey;
+    padding: 2%;
+}
+
+.footer_desktop a {
+    color: grey;
+    font-size: 18px;
+}
+
+.center_logo {
+    text-align: center;
+    margin: 20px auto;
+}
+.footer_desktop a{
+    font-size:14px;
+}
+.footer_desktop {
+    background-color: #f3f3f3;
+}
+
+.avoid_row {
+    background-color: #f3f3f3;
+    padding: 40px;
+}
+
+.fifth_back {
+    padding: 40px;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.row {
+    margin: 20px 0px;
+}
