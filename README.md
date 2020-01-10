@@ -42,4 +42,4 @@ rm filename
         extra large devices (class_prefix : col-xl- ) >= 1200px
         
         
-        
+        https://www.google.com/search?q=spacecraft+animation&client=ms-android-xiaomi&prmd=ivn&source=lnms&tbm=isch&sa=X&ved=2ahUKEwirgprRjvjmAhXU9nMBHZUVB_0Q_AUoAXoECA4QAQ&biw=360&bih=560&dpr=3#imgrc=2SnuSBloJ7IIuM
