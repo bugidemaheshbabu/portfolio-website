@@ -10,7 +10,7 @@ git commit -m "file.md"
 
 git add file.md
 
-git add --all
+git add -A
 
 git add -li
 
@@ -42,4 +42,8 @@ rm filename
         extra large devices (class_prefix : col-xl- ) >= 1200px
         
         
+        https://hackerthemes.com/bootstrap-cheatsheet/
         
+        portfolio-website/assignment-12/assignment_12_v2.html
+        
+        portfolio-website/assignment-13/13dup.html
