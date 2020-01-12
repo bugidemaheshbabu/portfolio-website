@@ -24,6 +24,8 @@ aws s3 cp . s3://tap.ibhubs.in/2019/maheshbabu-bugide --recursive --exclude ".c9
 
 rm filename
 
+wget absolute-url
+
 
         
         <meta charset="utf-8">
@@ -42,8 +44,12 @@ rm filename
         extra large devices (class_prefix : col-xl- ) >= 1200px
         
         
+<<<<<<< HEAD
         https://hackerthemes.com/bootstrap-cheatsheet/
         
         portfolio-website/assignment-12/assignment_12_v2.html
         
         portfolio-website/assignment-13/13dup.html
+=======
+        https://www.google.com/search?q=spacecraft+animation&client=ms-android-xiaomi&prmd=ivn&source=lnms&tbm=isch&sa=X&ved=2ahUKEwirgprRjvjmAhXU9nMBHZUVB_0Q_AUoAXoECA4QAQ&biw=360&bih=560&dpr=3#imgrc=2SnuSBloJ7IIuM
+>>>>>>> 548d19cc358c3e00157ffdf0cb6d63a6cbfcc934
