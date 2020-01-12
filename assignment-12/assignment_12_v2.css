@@ -83,9 +83,11 @@
     text-align: center;
     margin: 20px auto;
 }
-.footer_desktop a{
-    font-size:14px;
+
+.footer_desktop a {
+    font-size: 14px;
 }
+
 .footer_desktop {
     background-color: #f3f3f3;
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Assignment-1-media Queries</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <style type="text/css">
+            .one {
+
+                width: 100%;
+                height: 100px;
+                background-color: blue;
+                margin: 20px auto;
+            }
+
+            @media screen and (min-width: 768px) {
+                .one {
+                    width: 49.65%;
+                    display: inline-block;
+                }
+
+            }
+
+            @media screen and (min-width:992px) {
+                .one {
+                    width: 24.65%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+
+        <div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+        </div>
+    </body>
+
+</html>

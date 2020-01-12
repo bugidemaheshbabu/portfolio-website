@@ -1,0 +1,17 @@
+.header {
+    background-color: #ebebff;
+    height: 80px;
+    line-height: 80px;
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+
+.navigator {
+    height: 40px;
+    background-color: #8585e0;
+    color: red;
+    font-size: 20px;
+
+}

@@ -1,0 +1,40 @@
+h1 {
+    border-bottom: 2px solid lightgrey;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0px 20px;
+}
+
+@media (min-width: 768px) {
+    .all {
+        width: 49%;
+        display: inline-block;
+
+    }
+    .all p {
+        color: #b3b3b3;
+    }
+    .right p {
+        color: #b3b3b3;
+    }
+    .right {
+        width: 49%;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+}

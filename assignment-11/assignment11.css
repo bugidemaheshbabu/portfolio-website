@@ -1,0 +1,8 @@
+.border-2 {
+  border: 2px solid black;
+  text-align: center;
+  padding:10px;
+}
+.container{
+  margin-top:20px;
+}
