@@ -36,6 +36,7 @@ wget absolute-url
         <script src="bootstrap/jquery.min.js"></script>
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
+        <script src="https://tap.ibhubs.in/utils/flex-item-width.js"></script>
         
         extra small devices(class_prefix : col- ) < 576px(device_size width)
         small devices (class_prefix : col-sm- ) >= 576px
@@ -63,3 +64,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 https://caniuse.com
 
 https://bennettfeely.com/clippy/
+
+
+flex:initial; 0 1 1;
+flex:none; 0 0 0;
+flex:auto; 1 1 auto;
+flex:1; 1 1 0;

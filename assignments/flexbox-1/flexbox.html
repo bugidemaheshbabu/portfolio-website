@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css" />
+
+    <style type="text/css">
+      .flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+
+        align-items: center;
+        font-size: 0px;
+      }
+
+      .html {
+        background-color: dodgerblue;
+        width: 25%;
+        height: 700px;
+      }
+
+      .child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .css {
+        background-color: purple;
+        width: 25%;
+        height: 700px;
+      }
+
+      .boot {
+        background-color: orange;
+        width: 25%;
+        height: 700px;
+      }
+
+      .js {
+        background-color: teal;
+        width: 25%;
+        height: 700px;
+      }
+
+      img {
+        width: 50%;
+      }
+
+      @media (max-width:767px) {
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="html child">
+        <img src="assets/HTML5_logo.png" alt="html"></img>
+      </div>
+      <div class="css child">
+        <img src="assets/CSS_logo.svg" alt="html"></img>
+      </div>
+      <div class="boot child">
+        <img src="assets/bootstrap_logo.png" alt="html"></img>
+      </div>
+      <div class="js child">
+        <img src="assets/js_logo.png" alt="html"></img>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  background-color: #e0e0e0;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  height: 100px;
+}
+
+.orange {
+  width: 70%;
+  flex-grow: 3;
+  background-color: orange;
+}
+
+.brown {
+  width: 30%;
+  flex-grow: 1;
+  background-color: brown;
+}
+
+.green {
+  width: 100%;
+  flex-grow: 1;
+  background-color: teal;
+}

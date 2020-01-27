@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+        <script src="../bootstrap/jquery.min.js"></script>
+        <script src="../bootstrap/popper.min.js"></script>
+        <script src="../bootstrap/bootstrap.min.js"></script>
+
+        <style type="text/css">
+            .head-bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                background-color: black;
+                color: white;
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .logo {
+                filter: invert(.99);
+            }
+
+            .head-bar a {
+                color: white;
+            }
+
+            .header-tab {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                color: white;
+                margin: 10px 0px;
+                padding: 10px 10px;
+                display: none;
+            }
+
+            .tab-button {
+                margin-left: auto;
+                margin-right: 20px;
+            }
+
+            @media (max-width:991px) {
+                .head-bar {
+                    display: none;
+                }
+                .header-tab {
+                    display: flex;
+                }
+            }
+
+            .second,
+            .second-two {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .second a {
+                color: grey;
+                padding: 10px;
+            }
+
+            .third {
+                padding: 40px 20px;
+                text-align: center;
+                border-top: 1px solid lightgrey;
+                border-bottom: 1px solid lightgrey;
+                background-color: #f3f3f3;
+            }
+
+            .fourth {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: auto;
+                justify-content: space-evenly;
+
+            }
+
+            .fourth-box1 {
+                width: 33%;
+                padding: 20px;
+                margin: 25px;
+                height: auto;
+                border-radius: 10px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                flex-shrink: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            @media (max-width:767px) {
+                .fourth {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                }
+                .fourth-box1 {
+                    width: 96%;
+                }
+            }
+
+            @media (max-width:767px) {
+                .second {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            @media (min-width:1200px) {
+                .outer-container {
+                    margin-left: 25%;
+                    margin-right: 25%;
+                }
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div class="head-bar">
+            <img src="assets/github-logo.svg" class="logo"></img>
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Why GitHub?</a>
+            <a class="nav-link active " href="#!">Enterprice</a>
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+            <a class="nav-link " href="#!">Marketplace</a>
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pricing</a>
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </form>
+            <a class="nav-link active text-left " href="#!">Sign In</a>
+            <button type="button" class="btn btn-outline-light ">Sign up</button>
+        </div>
+
+        <div class="header-tab">
+            <img src="assets/github-logo.svg" class="logo"></img>
+            <button type="button" class="btn btn-outline-light tab-button">Sign up</button>
+            <button type="button" class="btn btn-dark ">&#9776</button>
+        </div>
+        <div class="outer-container">
+            <div class="second">
+                <div class="second-one">
+                    <a href="mailto:">Explore</a>
+                </div>
+                <div class="second-two">
+                    <a href="mailto:" class="select" style="color:black;font-weight:500;border-bottom:2px solid blue">Topics</a>
+                    <a href="mailto:">Trending</a>
+                    <a href="mailto:">Collections</a>
+                    <a href="mailto:">Events</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="third">
+            <h2>Topics</h2>
+            <p style="color:#a6a6a6;font-weight:500">Browse popular topics on GitHub.</p>
+        </div>
+
+        <div class="outer-container">
+            <div class="fourth">
+                <div class="fourth-box1">
+                    <img src="assets/opengl.png" width=100px height=100px></img>
+                    <h5>OpenGl</h5>
+                    <p>OpenGl is a software interface that allows a programmer to communicate with graphics hardware</p>
+                </div>
+                <div class="fourth-box1">
+                    <img src="assets/flask.png" width=100px height=100px></img>
+                    <h5>Flask</h5>
+                    <p>Flask is a web framework for python based on the werkzeug toolkit</p>
+                    <br>
+                </div>
+                <div class="fourth-box1">
+                    <img src="assets/gradle.png" width=100px height=100px></img>
+                    <h5>Gradle</h5>
+                    <p>Gradle is an open source build tool that helps teams build, automate and deliver better software, faster </p>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

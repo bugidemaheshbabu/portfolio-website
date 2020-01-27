@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flexbox-gmail</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+        <script src="../bootstrap/jquery.min.js"></script>
+        <script src="../bootstrap/popper.min.js"></script>
+        <script src="../bootstrap/bootstrap.min.js"></script>
+
+        <style type="text/css">
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px;
+
+            }
+
+            .image-head {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                font-size: 30px;
+            }
+
+            .image-head p {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .header-left {
+                display: flex;
+                margin-left: auto;
+                align-items: center;
+                justify-content: flex-end;
+
+            }
+
+            .header-left a {
+                color: grey;
+                font-size: 16px;
+                margin-left: 20px;
+            }
+
+            .header {
+                display: none;
+            }
+
+            .header-bottom {
+                display: none;
+            }
+
+            @media (min-width:767px) {
+                .header {
+                    display: flex;
+                }
+
+                .header-bottom {
+                    display: block;
+                }
+            }
+
+            .second {
+                display: flex;
+
+                background-color: #f3f3f3;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            .second-left {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                padding-left: 50px;
+                justify-content: center;
+            }
+
+            .second-right {
+                width: 50%;
+            }
+
+            .second-right-mobile {
+                display: none;
+            }
+
+
+            .third {
+                display: flex;
+                flex-direction: column;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                align-items: center;
+            }
+
+            .third-images {
+                display: flex;
+                justify-content: center;
+            }
+
+            .four {
+                width: 100%;
+            }
+
+            .five {
+                display: flex;
+                padding: 20px 5px;
+            }
+
+            .five-box1 {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                background-color: #f3f3f3;
+                margin: 10px;
+                padding: 20px;
+            }
+
+            .six {
+                display: flex;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding-top: 50px;
+                background-color: #f3f3f3;
+                padding-bottom: 50px;
+            }
+
+            .six-box1 {
+                width: 50%;
+                height: auto;
+                margin: 2px;
+                padding: 20px;
+                align-items: center;
+            }
+
+            .six-box2 {
+                width: 50%;
+                height: auto;
+                margin: 2px;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                justify-content: center;
+            }
+
+            .seven {
+                display: flex;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+
+            }
+
+            .seven-box1 {
+                width: 50%;
+                height: auto;
+                margin: 2px;
+                padding: 20px;
+                align-items: center;
+            }
+
+            .seven-box2 {
+                width: 50%;
+                height: auto;
+                margin: 2px;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+
+                justify-content: center;
+            }
+
+            .eight {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 20px;
+                height: 250px;
+            }
+
+            .nine {
+                display: flex;
+                flex-direction: column;
+                background-color: #f3f3f3;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                justify-content: space-between;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                padding-top: 10px;
+                font-size: 12px;
+            }
+
+            .mark {
+                display: flex;
+                margin-left: 25px;
+                justify-content: center;
+                background-color: #f3f3f3;
+            }
+
+            .nine a {
+                color: grey;
+                padding-left: 25px;
+            }
+
+
+            .nine-desktop {
+                background-color: #f3f3f3;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .nine-desktop a {
+                color: grey;
+                padding-left: 20px;
+                font-size: 14px;
+            }
+
+
+
+            .desktop-left {
+                display: flex;
+                justify-content: center;
+                flex-grow: 1;
+                align-items: center;
+            }
+
+            .nine-mobile {
+                display: flex;
+                flex-direction: column;
+                background-color: #f3f3f3;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .nine-mobile a {
+                color: grey;
+                padding-left: 20px;
+            }
+
+            .mobile-mark {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .mark a {
+                padding-left: 0px;
+                margin-left: 0px;
+            }
+
+            .mark {
+                display: flex;
+                margin-left: 25px;
+                justify-content: center;
+                background-color: #f3f3f3;
+            }
+
+            .mark a {
+                padding-left: 0px;
+                margin-left: 0px;
+            }
+
+            .second-right-mobile {
+                display: none;
+            }
+
+            .five-img-mobile {
+                display: none;
+            }
+
+            .header-mobile,
+            .header-mobile1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px;
+            }
+
+            .header-mobile-logo p {
+                padding: 0px 0px;
+                margin: 0px 0px;
+            }
+
+            .header-mobile-logo {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .header-mobile1 a {
+                color: grey;
+            }
+
+
+            .btn {
+                padding: 6px 20px;
+            }
+
+            .four {
+                overflow: hidden;
+            }
+
+            @media (max-width:767px) {
+                .second {
+                    flex-direction: column;
+                    background-color: #f3f3f3;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+                }
+                .second-left {
+                    text-align: center;
+                    width: 100%;
+                }
+                .second-right {
+                    display: none;
+                }
+                .desktop-button {
+                    display: none;
+                }
+                .second-right-mobile {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .five {
+                    text-align: center;
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                }
+                .five-box1 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .five-box1-text {
+                    width: 100%;
+                }
+                .five-img-mobile {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                }
+                .five-img-desktop {
+                    display: none;
+                }
+                .seven {
+                    text-align: center;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .six {
+                    text-align: center;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .six-box1 {
+                    display: none;
+                }
+                .six-box2 {
+                    width: 100%;
+                    order: -1;
+                }
+                .seven-box1 {
+                    display: none;
+                }
+                .seven-box2 {
+                    width: 100%;
+                }
+                .header {
+                    display: none;
+                }
+
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="image-head">
+                <img src="assets/logo-gmail.png" alt="gmail logo" height=30 width=50></img>
+                <p style="font-size:30px">Gmail</p>
+            </div>
+            <div class="header-left">
+                <a href="mailto:" class="head-end">For Work</a>
+                <a href="mailto:" class="head-end">Sign In</a>
+                <button type="button" class="btn btn-primary" style="margin-left: 20px;">Create an account</button>
+            </div>
+        </div>
+        <div style="border-bottom: 2px solid lightgrey;" class="header-bottom"></div>
+
+        <div class="header-mobile d-md-none">
+            <div class="header-mobile-logo">
+                <img src="assets/logo-gmail.png" alt="gmail logo" height=30 width=50></img>
+                <p style="font-size:30px">Gmail</p>
+            </div>
+            <button type="button" class="btn btn-primary">Get Gmail</button>
+        </div>
+        <div style="border-bottom: 1px solid grey;" class="d-md-none"></div>
+        <div class="header-mobile1 d-md-none">
+            <a href="mailto:" class="head-end">For Work</a>
+            <a href="mailto:" class="head-end">Sign In</a>
+        </div>
+
+        <div class="second">
+            <div class="second-left">
+                <div class="div">
+                    <h3>Get more done with Gmail</h3>
+                </div>
+                <div class="div">
+                    <p>Now more secure, smarter and easier to use &mdash; helping you save time and do more wiith your inbox.</p>
+                </div>
+                <div class="desktop-button"><button type="button" class="btn btn-primary desktop-button">Create an account</button>
+                </div>
+            </div>
+            <div class="second-right">
+                <img src="assets/landing-page-image-desktop.png" alt="landing page image" width=100% height=100%>
+            </div>
+            <div class="second-right-mobile">
+                <div class="div">
+                    <img src="assets/landing-page-image-mobile.png" alt="landing page image" width=70%>
+                </div>
+                <div class="div">
+                    <button type="button" class="btn btn-primary">Get Gmail</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="third">
+            <div class="div">
+                <h3>Experience Gmail on any device</h3>
+            </div>
+            <div class="div">
+                <p>The ease &amp; simplicity of Gmail, where you are</p>
+            </div>
+            <div class="third-images">
+                <img src="assets/google-playstore.png" alt="google-store" width=150 height=50 class="d-none d-md-block">
+                <img src="assets/app-store.png" alt="app-store" width=150 height=50 class="d-none d-md-block">
+
+                <img src="assets/google-playstore.png" alt="google-store" width=120 height=40 class="d-md-none">
+                <img src="assets/app-store.png" alt="app-store" width=120 height=40 class=" d-md-none">
+            </div>
+        </div>
+        <div class="four">
+            <img src="assets/experience-image-mobile-desktop.png" alt="experience-image" width=120% height=100% style="margin:0% -10%"></img>
+        </div>
+
+        <div class="five">
+            <div class="five-box1">
+                <div class="five-box1-text">
+                    <h3>Stay Organised instantly</h3>
+                    <p>See what's new at a glance and decide what you want to read and respond to.</p>
+                </div>
+                <div class="five-img-desktop">
+                    <img src="assets/stay-organised-instantly-desktop.png" alt="stay organised" width=100% height=100%></img>
+                </div>
+                <div class="five-img-mobile">
+                    <img src="assets/stay-organised-instantly-mobile.png" alt="stay organised" width=70%></img>
+                </div>
+            </div>
+            <div class="five-box1">
+                <div class="five-box1-text">
+                    <h3>Never drop the ball</h3>
+                    <p> Get nudges that remind you to follow up and respond to messages, so that nothing slips through the cracks.</p>
+                </div>
+                <div class="five-img-desktop">
+                    <img src="assets/never-drop-the-ball-desktop.png" alt="Never drop the ball" width=100% height=100%></img>
+                </div>
+                <div class="five-img-mobile">
+                    <img src="assets/never-drop-the-ball-mobile.png" alt="Never drop the ball" width=70%></img>
+                </div>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="seven-box2">
+                <h3>Take action right from the inbox</h3>
+                <p>View attachments, RSVP to events, snooze messages and more without opeing any emails.</p>
+            </div>
+            <div class="seven-box1">
+                <img src="assets/take-action-desktop.png" alt="take action" width=100% height=100%></img>
+            </div>
+            <div class="five-img-mobile">
+                <img src="assets/take-action-mobile.png" alt="take action" width=70% height=100%></img>
+            </div>
+        </div>
+
+        <div class="six">
+            <div class="six-box1">
+                <img src="assets/avoid-suspicious-emails-desktop.png" alt="avoid suspicious" width=100%></img>
+            </div>
+            <div class="five-img-mobile">
+                <img src="assets/avoid-suspicious-emails-mobile.png" alt="avoid suspicious" width=70%></img>
+            </div>
+            <div class="six-box2">
+                <h3>Avoid suspicious emails</h3>
+                <p>Gmails blocks 99.9% of dangerous emails before they reach you.If you think something seems pishy-y, you will get a warning. </p>
+            </div>
+        </div>
+
+        <div class="eight">
+            <img src="assets/logo-gmail.png" width=60 height=40 alt="gmail logo">
+            <h4>Get started with Gmail</h4>
+            <button type="button" class="btn btn-primary">Create an account</button>
+        </div>
+
+        <div class="nine d-none d-md-block d-lg-none">
+            <div class="div">
+                <a href="url" style="font-size:26px">Google</a>
+            </div>
+            <div class="links">
+                <a href="url">Privacy</a>
+                <a href="url">Terms</a>
+                <a href="url">About Google</a>
+                <a href="url">Google products</a>
+                <a href="url">Our policy</a>
+                <div class="mark">
+                    <img src="assets/question-mark.png" alt="question_mark"></img>
+                    <a href="url" class="help-link">Help</a>
+                </div>
+                <a href="url">English(India)</a>
+            </div>
+        </div>
+
+        <div class="nine-desktop d-none d-md-none d-lg-flex">
+            <a href="url" style="font-size:26px">Google</a>
+            <a href="url">Privacy</a>
+            <a href="url">Terms</a>
+            <a href="url">About Google</a>
+            <a href="url">Google products</a>
+            <a href="url">Our policy</a>
+            <div class="desktop-left">
+                <div class="mark">
+                    <img src="assets/question-mark.png" alt="question_mark"></img>
+                    <a href="url" class="help-link">Help</a>
+                </div>
+                <a href="url">English(India)</a>
+            </div>
+        </div>
+
+        <div class="nine-mobile d-block d-md-none d-lg-none">
+            <a href="url" style="font-size:26px">Google</a>
+            <div class="mobile-links">
+                <div class="div">
+                    <a href="url">Privacy</a>
+                    <a href="url">Terms</a>
+                    <a href="url">About Google</a>
+                    <a href="url">Google products</a>
+                </div>
+                <div class="div">
+                    <a href="url">Our policy</a>
+                </div>
+            </div>
+            <div class="mobile-mark">
+                <div class="mark">
+                    <img src="assets/question-mark.png" alt="question_mark"></img>
+                    <a href="url" class="help-link">Help</a>
+                </div>
+                <a href="url">English(India)</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>

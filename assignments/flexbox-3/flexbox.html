@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flexbox</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" type="text/css" href="flexbox.css" />
+
+        <style type="text/css">
+            .flexbox {
+                display: flex;
+                justify-content: center;
+
+                border-radius: 10px;
+            }
+
+            .computer {
+                background-color: lightyellow;
+                margin: 5px;
+                border: 3px solid yellow;
+                display: flex;
+                flex-direction: column;
+                border-radius: 25px;
+                width: 33%;
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            .printer {
+                background-color: lightyellow;
+                margin: 5px;
+                padding-top: 20px;
+                display: flex;
+                width: 33%;
+                flex-direction: column;
+                border-radius: 25px;
+                border: 3px solid yellow;
+                text-align: center;
+            }
+
+            .text {
+                text-align: left;
+                padding: 15px;
+            }
+
+            .last {
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                font-weight: 900;
+                margin-top: auto;
+            }
+
+            .button {
+                background-color: #4CAF50;
+                border: 3px solid green;
+                border-top: 3px solid black;
+                border-left: 3px solid black;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 30px;
+                font-size: 25px;
+                text-align: center;
+                margin: 20px 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h3 {
+                color: dodgerblue;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="flexbox">
+            <div class="computer">
+                <div class="div">
+                    <img src="assets/computer.jpg"></img>
+                </div>
+                <div class="text">
+                    <h3>Computer starter kit</h3>
+                    <p>This is the best computer money can buy,<br> if you dont have money.</p>
+                    <ul>
+                        <li>Computer</li>
+                        <li>Moniter</li>
+                        <li>Mouse</li>
+                        <li>Keyboard</li>
+                    </ul>
+                </div>
+                <div class="last">
+                    <a href="#" class="button">BUY NOW</a>
+                </div>
+            </div>
+
+            <div class="printer">
+                <div class="div">
+                    <img src="assets/printer.png"></img>
+                </div>
+                <div class="text">
+                    <h3>Printer</h3>
+                    <p>Only capable of printing ASCII art.</p>
+                    <ul>
+                        <li>Paper and ink not included.</li>
+                    </ul>
+                </div>
+
+                <div class="last">
+                    <a href="#" class="button">BUY NOW</a>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>

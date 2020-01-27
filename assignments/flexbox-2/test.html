@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Flexbox</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <style type="text/css">
+            .flexbox {
+                width: 100%;
+                height: 110px;
+                margin-top: 20px;
+
+            }
+
+            .twitter-logo {
+                width: 100px;
+                height: inherit;
+
+                text-align: center;
+
+                float: left;
+            }
+
+            .twitter-logo>img {
+                height: 60%;
+                border-radius: 50%;
+                margin-top: 15%;
+            }
+
+            .realbox {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .first {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                height: 30px;
+                margin-top: 10px;
+
+            }
+
+            .text {
+                font-weight: 900;
+                font-size: 20px;
+            }
+
+            .text-d {
+                font-weight: 900;
+                font-size: 20px;
+                color: grey;
+                flex-grow: 1;
+            }
+
+            .tick>img {
+                width: 25px;
+            }
+
+
+
+            .drop-down {
+                width: 25px;
+                justify-content: flex-end;
+            }
+
+            .third {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                align-items: center;
+            }
+
+
+            .second p {
+                margin-top: 5px;
+                font-weight: 500;
+                font-size: 18px;
+                padding-bottom: 0px;
+            }
+
+            .last {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .last>img {
+                width: 25px;
+            }
+
+            @media (max-width:992px) {
+                .empty {
+                    display: none;
+                }
+                .desktop-share {
+                    display: none;
+                }
+            }
+
+            @media (min-width:992px) {
+                .mobile-share {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flexbox">
+
+            <div class="twitter-logo">
+                <img src="assets/twitter.jpg" alt="twitter"></img>
+            </div>
+
+            <div class="realbox">
+                <div class="first">
+                    <p class="text">Twitter</p>
+                    <img class="tick" src="assets/tick.svg"></img>
+                    <p class="text-d"> @Twitter . Jan 1</p>
+                    <div class="drop-down">
+                        <img src="assets/drop_down.svg"></img>
+                    </div>
+                </div>
+                <div class="second">
+                    <p>New Decade, drink Water</p>
+                </div>
+
+                <div class="third">
+                    <div class="last">
+                        <img src="assets/message.svg">&nbsp;&nbsp;13.5k</img>
+                    </div>
+                    <div class="last">
+                        <img src="assets/retweet.svg">&nbsp;&nbsp;290.8k</img>
+                    </div>
+                    <div class="last">
+                        <img src="assets/like.svg">&nbsp;&nbsp;943.1k</img>
+                    </div>
+                    <div class="last mobile-share">
+                        <img src="assets/share.svg"></img>
+                    </div>
+                    <div class="last desktop-share">
+                        <img src="assets/share_desktop.svg"></img>
+                    </div>
+                    <div class="last empty">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
