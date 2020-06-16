@@ -3,6 +3,52 @@ body {
   margin: 0px;
   font-family: sans-serif;
 }
+
 .flexbox {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.item {}
+
+.header {
+  flex-basis: 1920px;
+  background: orange;
+  color: white;
+  flex-grow: 1;
+}
+
+.navigation {
+  flex-grow: 1;
+  background: #055605;
+  color: white;
+  flex-basis: 150px;
+}
+
+.main {
+  flex-basis: 600px;
+  background: white;
+  flex-grow: 4;
+}
+
+.article {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.part {
+  padding: 15px;
+  border: 2px dotted black;
+  margin-bottom: 15px;
+}
+
+.footer {
+  flex-basis: 1920px;
+  background: #afb0b1;
+  flex-grow: 1;
+}
+
+p {
+  text-align: center;
 }

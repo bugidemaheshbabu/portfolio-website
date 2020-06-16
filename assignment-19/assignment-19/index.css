@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+
+}
+
+.outer {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: verdana;
+}
+
+.header h3 {
+    padding: 8px 14px;
+    font-weight: 600;
+}
+
+.calls {
+    margin: 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.calls p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-pic {
+    width: 60px;
+    padding-right: 15px;
+}
+
+.contact-pic img {
+    width: inherit;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.contact-info p,
+.contact-info img {
+    margin-right: 10px;
+}
+
+.contact-info img {
+    width: 15px;
+    height: 20px;
+}
+
+
+.right-mark p {
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 70%;
+    padding: 3px;
+}
+
+.right-mark {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.key-pad {
+    border-top: 1px solid black;
+    border-radius: 25px;
+}
+
+.key-pad p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.inner-elements {
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sims {
+    display: flex;
+    position: relative;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+}
+
+.sim1-button {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.sim2-button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sim-number {
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%);
+}

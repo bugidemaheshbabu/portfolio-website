@@ -14,19 +14,16 @@ body {
 }
 
 .orange {
-  width: 70%;
   flex-grow: 3;
   background-color: orange;
 }
 
 .brown {
-  width: 30%;
   flex-grow: 1;
-  background-color: brown;
+  background-color: saddlebrown;
 }
 
 .green {
-  width: 100%;
   flex-grow: 1;
-  background-color: teal;
+  background-color: green;
 }

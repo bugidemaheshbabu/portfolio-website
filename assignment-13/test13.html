@@ -11,21 +11,28 @@
 
         <style type="text/css">
             .projects {
+                width: 800px;
                 display: flex;
-                border: 1px solid blue;
+                flex-grow: 1;
+                flex-wrap: wrap;
             }
 
             .project-logo {
-                width: 10%;
-                height: 110px;
-                border: 1px solid red;
-                background-color: grey;
+                background: grey;
+                display: flex;
+                height: 70px;
+                padding: 10px;
+                justify-content: center;
+                width: 100px;
             }
 
-            .project-name {
-                border: 1px solid blue;
+            .star-button {
+                margin-left: auto;
+            }
+
+            .project-title {
+                width: 100%;
                 display: flex;
-                justify-content: space-between;
             }
         </style>
     </head>
@@ -35,15 +42,19 @@
             <div class="project-logo">
                 <p>#</p>
             </div>
-            <div class="project-name">
-                <h4>3D</h4>
-                <button type="button" class="btn btn-outline-dark">
-                    <img src="assets/star.svg" alt="star">
-                    <p style="display:inline">star</p>
-                </button>
+            <div class="div">
+                <div class="project-title">
+                    <h4>3D</h4>
+                    <button type="button" class="btn btn-outline-dark star-button">
+                                <img src="assets/star.svg" alt="star">
+                                <p style="display:inline">star</p>
+                            </button>
+                </div>
+                <div class="project-description">
+                    <p>3D processing is the process of virtually designing the surface and structure of a 3D object</p>
+                </div>
             </div>
         </div>
-
     </body>
 
 </html>

@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    margin: auto;
+}
+
+.outer {
+    height: 500px;
+    width: 700px;
+    background: black;
+    margin: auto;
+    border-radius: 20px;
+    font-family: verdana;
+    display: flex;
+    position: relative;
+    top: 10vh;
+}
+
+.image-outer {
+    /* background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);*/
+    background-image: linear-gradient(135deg, rgba(114, 237, 242, 0.8), rgba(81, 81, 229, 0.8));
+    width: 100%;
+
+    border-radius: 20px;
+    height: 100%;
+}
+
+.image-after {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.left {
+    width: 45%;
+    background-image: url("assets/background-image.jpeg");
+    height: 100%;
+    color: white;
+    border-radius: 20px;
+}
+
+.current-report {
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 440px;
+}
+
+
+.first-child h3,
+.first-child h2 {
+    margin: 0px;
+}
+
+.first-child h3 {
+    font-weight: 400;
+}
+
+.second-child {
+    display: flex;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.third-child {
+    margin-top: auto;
+}
+
+.third-child h1 {
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 900;
+
+}
+
+.third-child h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.right {
+    margin: 5%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elements h3,
+.elements p {
+    margin: 8px;
+}
+
+.second-child-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black-sun {
+    color: black;
+    background: white;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.weather p {
+    margin: 5px;
+}
+
+.third-child-right {
+    background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
