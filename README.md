@@ -27,8 +27,6 @@ rm -rf filename
 
 wget absolute-url
 
-
-
         <meta charset="utf-8">
         <meta http.equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1,
@@ -83,3 +81,4 @@ from django.db import connection
 print(connection.queries[-1])
 
 aws s3 cp . s3://tap.ibhubs.in/2019/maheshbabu-bugide --recursive --exclude ".c9/*"
+
